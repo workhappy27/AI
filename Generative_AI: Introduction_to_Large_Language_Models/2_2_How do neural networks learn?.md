@@ -70,7 +70,7 @@
    * Biases
 
 
-<img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/be3cbdf0-4472-43a8-bcd5-7233d1548eb0" />
+<img width="512" height="512" alt="image" src="https://github.com/user-attachments/assets/be3cbdf0-4472-43a8-bcd5-7233d1548eb0" />
 
 👉 Goal:
 
