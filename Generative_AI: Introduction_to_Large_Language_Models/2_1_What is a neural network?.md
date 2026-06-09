@@ -14,9 +14,6 @@
 ***
 
 
-<img width="1024" height="512" alt="image" src="https://github.com/user-attachments/assets/0ef59aa1-2bb5-4e5d-8cd6-8e4018a4c351" />
-
-
 ## 🔹 2. Biological Inspiration
 
 ### 🧠 Human Neuron:
@@ -40,6 +37,10 @@
 5. **Bias** is added
 6. Result passed through an **activation function**
 7. Output is generated
+
+
+<img width="1024" height="512" alt="image" src="https://github.com/user-attachments/assets/0ef59aa1-2bb5-4e5d-8cd6-8e4018a4c351" />
+
 
 ***
 
