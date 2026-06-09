@@ -7,3 +7,4 @@
     can reason, learn and act autonomously.  
 
     
+👉 machine learning is a subset of artificial intelligence.  
