@@ -1,4 +1,3 @@
-<img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/e1ff4781-0b36-49ff-8e8b-436338667355" />***
 
 # 📘 Neural Networks – Notes
 
@@ -15,7 +14,7 @@
 ***
 
 
-<img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/0ef59aa1-2bb5-4e5d-8cd6-8e4018a4c351" />
+<img width="512" height="512" alt="image" src="https://github.com/user-attachments/assets/0ef59aa1-2bb5-4e5d-8cd6-8e4018a4c351" />
 
 
 ## 🔹 2. Biological Inspiration
