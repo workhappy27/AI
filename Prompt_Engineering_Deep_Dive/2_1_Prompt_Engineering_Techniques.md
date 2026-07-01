@@ -35,13 +35,10 @@
    d. Marginalize the reasoning paths and aggregate by chosing most consistent answer in the ifnal answer set.
    Consistency in the output is going to be the defining factor for chosing the best response.  That's Self-Consistency.
 
-##### Knowledge Generation:  
-  - Knowledge generation  
-  - Knowledge integration  
-   
-   
-
 #### Knowledge Generation  
  - Knowledge Generation: Generating facts related to the question.  
  - Knowledge Integration: Using genereated facts to answer the question.
+
+ #### Tree of Thoughts  
+  - ToT allows LMs to perform delierate decision making by considering multiple different reasoning paths and self-evaluating choices to decide the next course of action.  
    
