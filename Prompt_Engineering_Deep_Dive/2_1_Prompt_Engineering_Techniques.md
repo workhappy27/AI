@@ -17,10 +17,29 @@
 #### Chain-of-Thought  
  - Enables complex reasoning capabilities through intermediate reasoning steps.
  - Examples: Reasoning aptitue questions.
+ - Example-1:  
+   Ask a Question, example of an answer showing intermediate reasoning steps that lead to a solution, and then prime the model with similar type, category, group to get response.
+ - Example-2:
+   Zero shot chain of though using same model as used in Example-1.
+
 
 #### Self-Consistency  
  - Providing many solutions to get final answer.
+ - Elicit reasoning and response.  
  - Many ways to think through a problem, getting the solutions which has majority votes.
+ - Examples:  
+ - Exmaple-1:
+   a. Limiting the number of responses to 10.
+   b. Prompting the model to using a chain of thought.
+   c. Replace greedy decode in CoT prompting by samplig from the language's model's decoder to generate diverse set of reasoning paths.
+   d. Marginalize the reasoning paths and aggregate by chosing most consistent answer in the ifnal answer set.
+   Consistency in the output is going to be the defining factor for chosing the best response.  That's Self-Consistency.
+
+##### Knowledge Generation:  
+  - Knowledge generation  
+  - Knowledge integration  
+   
+   
 
 #### Knowledge Generation  
  - Knowledge Generation: Generating facts related to the question.  
