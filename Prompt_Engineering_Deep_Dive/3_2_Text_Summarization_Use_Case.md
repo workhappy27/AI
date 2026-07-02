@@ -21,3 +21,6 @@ Leverages GPT-4 as a judge for the quality of the summarization outputs obtained
 - Coherence
 - Consistency
 - Fluency
+
+#### Simplied versionof experimentation pipeline
+## Evaluation Loop85 86```mermaid87flowchart TD88 89    A[Prompt]90    --> B[Generate Summaries]91 92    B --> C[GPT-4 Evaluation]93 94    C --> D{Score >= Threshold?}95 96    D -- Yes --> E[Keep Candidate]97 98    D -- No --> F[Extract Feedback]99    F --> G[Prompt Refinement]100    G --> A101```
