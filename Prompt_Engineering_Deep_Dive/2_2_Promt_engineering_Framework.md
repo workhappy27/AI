@@ -14,3 +14,7 @@
 
 #### Promptflow  
  - Promptflow is a suite of development tools designed to streamline the end-to-end development cycle of LLM-based AI applications.  
+
+#### Guidance  
+ - Guidance is a framework for controlling LLMs, it allows users to constrain generation (with regex and CFGs) as well as to interleave control (conditional, loops) and generation seamlessly.
+
