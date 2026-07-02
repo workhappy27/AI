@@ -1,4 +1,4 @@
-If by **"what is the content for ChatGPT 4.0?"** you mean:
+**"what is the content for ChatGPT 4.0?"**
 
 ```python
 {
