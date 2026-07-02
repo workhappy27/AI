@@ -25,6 +25,9 @@ def get_response(prompt_question):
 print(get_response("What is the capital of France?"))
 
 ```
+This simple idea is the foundation of most prompt engineering techniques such as role prompting, persona prompting, format control, and response constraints.  
+
+
 This example is not really about finding the capital of France. The **capital of France** is just a very simple test question. The real purpose of the example is to teach **how prompts are sent to an LLM and how different prompt components influence the model's behavior**.
 
 Let's break it down.
