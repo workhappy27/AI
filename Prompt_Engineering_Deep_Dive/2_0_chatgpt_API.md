@@ -25,6 +25,11 @@ def get_response(prompt_question):
 print(get_response("What is the capital of France?"))
 
 ```
+```
+System = Who are you?
+User   = What should you do?
+Assistant = What have you already said?
+```
 This simple idea is the foundation of most prompt engineering techniques such as role prompting, persona prompting, format control, and response constraints.  
 
 
