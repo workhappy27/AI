@@ -18,3 +18,5 @@
 #### Guidance  
  - Guidance is a framework for controlling LLMs, it allows users to constrain generation (with regex and CFGs) as well as to interleave control (conditional, loops) and generation seamlessly.
 
+#### GPT-Prompt_Engineer  
+ - It is a github that introduced more structured experimatation to prompt engineering, essentially allowing the user to generate, test and rank their prompts.  
