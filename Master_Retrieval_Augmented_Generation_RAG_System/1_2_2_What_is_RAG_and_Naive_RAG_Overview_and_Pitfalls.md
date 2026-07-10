@@ -33,6 +33,14 @@ flowchart TD
         D3[Embedding 3]
     end
 
+    QE[Query Embedding]
+
+    MS[Most Similar]
+
+    G[Gen. LLM]
+
+    R[Response]
+
     A --> B1
     A --> B2
     A --> B3
@@ -42,8 +50,18 @@ flowchart TD
     B3 --> C
 
     Q --> C
+    C --> QE
 
     C --> D1
     C --> D2
     C --> D3
+
+    D1 --> MS
+    D2 --> MS
+    D3 --> MS
+
+    QE --> MS
+
+    MS --> G
+    G --> R
 ```
