@@ -22,7 +22,9 @@ flowchart TD
         B3[Chunk 3]
     end
 
-    C[               Embedding LLM                       ]   
+    Q[Query]
+
+    C[\nEmbedding LLM\n]
 
     subgraph Embeddings
         D1[Embedding 1]
@@ -37,6 +39,8 @@ flowchart TD
     B1 --> C
     B2 --> C
     B3 --> C
+
+    Q --> C
 
     C --> D1
     C --> D2
