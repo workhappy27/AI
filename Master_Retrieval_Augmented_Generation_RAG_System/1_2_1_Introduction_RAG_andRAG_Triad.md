@@ -11,3 +11,7 @@ flowchart LR
     Q[Query] --> R[Response]
     R --> C[Context]
     C --> Q[Query]
+
+ - Context Relevance
+ - Groundness
+ - Answer Relevance
