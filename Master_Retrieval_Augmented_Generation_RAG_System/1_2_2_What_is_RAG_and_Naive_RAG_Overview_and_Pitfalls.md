@@ -14,5 +14,31 @@
 
 ```mermaid
 flowchart TD
-     A[Documents] --> B[Chunk-1] [chunk-2] [Chunk-3] -->C[Embedding LLM] -->D[Emb-1] [Emb-2] [Emb-3]
+    A[Documents]
+
+    subgraph Chunks
+        B1[Chunk 1]
+        B2[Chunk 2]
+        B3[Chunk 3]
+    end
+
+    C[Embedding LLM]
+
+    subgraph Embeddings
+        D1[Embedding 1]
+        D2[Embedding 2]
+        D3[Embedding 3]
+    end
+
+    A --> B1
+    A --> B2
+    A --> B3
+
+    B1 --> C
+    B2 --> C
+    B3 --> C
+
+    C --> D1
+    C --> D2
+    C --> D3
 ```
