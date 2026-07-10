@@ -13,17 +13,25 @@
 ##### Query Expansion (with generated answer)
  Generate potential answers to the query [using an LLM] and to get relevant context.
 
+**Use cases:**
+- Information Retrieval
+- Question Answering Systems
+- E-Commerce Search
+- Academic Search
+
+
+
 ```mermaid
 flowchart LR
 
     A[User Query] --> B[LLM]
-    B --> C[Search Query]
+    B --> C[Answer]
 
-    C --> D[Vector DB]
-    D --> E[Retrieved Documents]
+    A --> D[Vector DB]
+    C --> D
 
+    D --> E[Query Results]
     E --> F[LLM]
-    A --> F
 
-    F --> G[Answer]
+    F --> G[Final Answer]
 ```
