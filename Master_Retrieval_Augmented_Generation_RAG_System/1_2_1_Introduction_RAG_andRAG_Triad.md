@@ -13,6 +13,6 @@ flowchart LR
     C --> Q[Response]
 ```
 
- - Context Relevance
- - Groundness
- - Answer Relevance
+ - Context Relevance, is the retrieved Context relevant to the Query?
+ - Groundness Relevance, is the Response supported by the Context?
+ - Answer Relevance, is the Response relevant to the Query?
