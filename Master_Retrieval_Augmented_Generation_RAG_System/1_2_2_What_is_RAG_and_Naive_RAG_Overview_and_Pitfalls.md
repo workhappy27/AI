@@ -81,9 +81,9 @@ R[Retrieval]
 G[Generation]
 end
 
-I --- ID["Cleaning<br/>extracting data<br/>from docs or DB"]
+I --> ID["Cleaning<br/>extracting data<br/>from docs or DB"]
 
-R --- RD["Turn question into<br/>Vector comparison<br/>Retrives closely<br/> Related chunk.."]
+R --> RD["Turn question into<br/>Vector comparison<br/>Retrives closely<br/> Related chunk.."]
 
-G --- GD["The query, choose docs<br/>combined into a prompt<br/>The model generates<br/n> an answer"]
+G --> GD["The query, choose docs<br/>combined into a prompt<br/>The model generates<br/n> an answer"]
 ```
