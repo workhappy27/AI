@@ -76,14 +76,12 @@ flowchart TB
 subgraph process
 direction LR
 
-I[Indexing]
-R[Retrieval]
-G[Generation]
+I[Indexing] R[Retrieval] G[Generation]
 end
 
 I --- ID["Cleaning<br/>extracting data<br/>from docs or DB"]
 
-R --- RD["Turn question into<br/>Vector comparison<br/>Retrives closely<br/> Related chunk.."]
+R --- RD["Turn question into<br/>Vector comparison<br/>Retrives closely<br/> related chunk.."]
 
 G --- GD["The query, choose docs<br/>combined into a prompt<br/>The model generates<br/n> an answer"]
 ```
