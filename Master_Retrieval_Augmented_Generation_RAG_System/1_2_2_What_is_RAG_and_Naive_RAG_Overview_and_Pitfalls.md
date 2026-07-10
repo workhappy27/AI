@@ -65,3 +65,25 @@ flowchart TD
     MS --> G
     G --> R
 ```
+
+#### Naive RAG
+ - Most simple RAG dealing with LLM
+
+
+```mermaid
+flowchart TB
+
+subgraph Process
+direction LR
+
+I[Indexing]
+R[Retrieval]
+G[Generation]
+end
+
+I --- ID["Documents are chunked<br/>and converted to embeddings<br/>for storage in a vector DB"]
+
+R --- RD["Query is embedded<br/>and similar chunks<br/>are retrieved"]
+
+G --- GD["LLM uses retrieved context<br/>to generate a response<br/>for the user"]
+```
