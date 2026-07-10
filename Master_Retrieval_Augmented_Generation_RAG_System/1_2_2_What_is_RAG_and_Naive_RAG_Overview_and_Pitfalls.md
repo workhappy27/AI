@@ -73,7 +73,7 @@ flowchart TD
 ```mermaid
 flowchart TB
 
-subgraph
+subgraph process
 direction LR
 
 I[Indexing]
