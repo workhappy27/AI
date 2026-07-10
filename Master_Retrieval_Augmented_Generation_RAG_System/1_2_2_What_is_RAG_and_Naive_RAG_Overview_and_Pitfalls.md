@@ -76,7 +76,9 @@ flowchart TB
 subgraph process
 direction LR
 
-I[Indexing] R[Retrieval] G[Generation]
+I[Indexing]
+R[Retrieval]
+G[Generation]
 end
 
 I --- ID["Cleaning<br/>extracting data<br/>from docs or DB"]
