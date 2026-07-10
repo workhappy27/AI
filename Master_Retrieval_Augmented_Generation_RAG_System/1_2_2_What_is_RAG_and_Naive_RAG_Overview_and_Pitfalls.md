@@ -102,4 +102,4 @@ G --- GD["The query, choose docs<br/>combined into a prompt<br/>The model genera
  - Inconsistent relevance and quality of retrieved documents.
  - Poor integration between retrieval and generation
  - Inefficient handling of Large-Scale data
-   
+ - Lack of robustness and adaptability
