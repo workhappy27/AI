@@ -12,6 +12,7 @@
 
 #### RAG Overview 
 
+
 ```mermaid
 flowchart TD
     A[Documents]
@@ -24,7 +25,7 @@ flowchart TD
 
     Q[Query]
 
-    C[\nEmbedding LLM\n]
+    C[Embedding LLM]
 
     subgraph Embeddings
         D1[Embedding 1]
