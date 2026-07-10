@@ -81,9 +81,9 @@ R[Retrieval]
 G[Generation]
 end
 
-I --- ID["Documents are chunked<br/>and converted to embeddings<br/>for storage in a vector DB"]
+I --- ID["Cleaning<br/>extracting data<br/>from docs or DB"]
 
-R --- RD["Query is embedded<br/>and similar chunks<br/>are retrieved"]
+R --- RD["Turn question into<br/>Vector comparison<br/>Retrives closely<br/> Related chunk.."]
 
-G --- GD["LLM uses retrieved context<br/>to generate a response<br/>for the user"]
+G --- GD["The query, choose docs<br/>combined into a prompt<br/>The model generates<br/n> an answer"]
 ```
