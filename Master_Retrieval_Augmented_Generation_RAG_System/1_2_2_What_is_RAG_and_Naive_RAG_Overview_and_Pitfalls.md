@@ -87,3 +87,19 @@ R --- RD["Turn question into<br/>Vector comparison<br/>Retrives closely<br/> rel
 
 G --- GD["The query, choose docs<br/>combined into a prompt<br/>The model generates<br/n> an answer"]
 ```
+
+#### Deep Dive
+ - Indexing: Indexing the documents through parsing and preprocessing to create chunks. Chunks are then given as input to Embedding model. LLMs vectorize these embedding model to create vector store through indexing.
+
+ - User have a query: User query is send to embedding model to create vector store through search.
+
+ - Relevant documents are retrieved and augmented for user query.
+
+ - Retrieved information is then passed to Gen.LLM to produce the response.
+
+#### Drawbacks of Naive RAG
+ - Limited contxstual understanding.
+ - Inconsistent relevance and quality of retrieved documents.
+ - Poor integration between retrieval and generation
+ - Inefficient handling of Large-Scale data
+   
